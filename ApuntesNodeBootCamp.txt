@@ -1,0 +1,10 @@
+NODE JS
+
+nodemon sirve para levantar el servidor y estar escuchando si hay cambios en ficheros y actualizar el server y ver los cambios instantaneos.
+
+Se instala con npm install nodemon -D (-D se pone para que se instale en el proyecto y no de forma global, ya que es una herramienta de desarrollo)
+Para no tener que levantar nodemon desde el terminal siempre con ./node_modules/.bin/nodemon start index.js pues vamos a nuestro package.json del proyecto y escribimos en scripts:
+
+"dev": "nodemon index.js" 
+
+para que al hacer un npm run dev nos arranque la aplicación ya directamente con nodemon
